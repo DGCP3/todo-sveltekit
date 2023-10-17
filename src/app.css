@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+::backdrop {
+	background: gray;
+	opacity: 0.75;
+}
